@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class CalculatorController {
-	  
+	   
 	@GetMapping("/")
 	public String index() {
 		return "index";
